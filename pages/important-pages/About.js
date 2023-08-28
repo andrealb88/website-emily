@@ -35,23 +35,24 @@ export default function About() {
       </nav>
 
       <h1>About Emily</h1>
-      <h3>
+      <p>
         I am a personal stylist, writer and mum based in London and my book
         Shopped was published in 2016. I started out as an actress which quickly
-        taught me the importance of image. Although I didn't have much
-        confidence in those days, one thing I did know was how to 'dress the
-        part'. Through trial and error (some of it, painfully embarrassing) and
-        my training as a personal stylist, I discovered how dressing for your
-        shape and wearing the right colours can make all the difference to your
-        confidence and consequently how others see you. We might as well be the
-        best version of ourselves, whatever age, whatever size. By putting
-        together an accessible wardrobe suitable for your lifestyle and shape,
-        you will save time, money and space. I relish an overstuffed wardrobe
-        and can advise on how to work with what you have, what to do away with
-        (if that's your goal) and what to do with unwanted pieces. However bad
-        you think it's become, I've not only been there myself, I've seen worse!
-        Be the loveliest possible you every day. Emily
-      </h3>
+        taught me the importance of image. Although I didn&apos;t have much
+        confidence in those days, one thing I did know was how to &quot;dress
+        the part&quot;. Through trial and error (some of it, painfully
+        embarrassing) and my training as a personal stylist, I discovered how
+        dressing for your shape and wearing the right colours can make all the
+        difference to your confidence and consequently how others see you. We
+        might as well be the best version of ourselves, whatever age, whatever
+        size. By putting together an accessible wardrobe suitable for your
+        lifestyle and shape, you will save time, money and space. I relish an
+        overstuffed wardrobe and can advise on how to work with what you have,
+        what to do away with (if that&apos;s your goal) and what to do with
+        unwanted pieces. However bad you think it&apos;s become, I\'ve not only
+        been there myself, I&apos;ve seen worse! Be the loveliest possible you
+        every day. Emily
+      </p>
     </div>
   );
 }

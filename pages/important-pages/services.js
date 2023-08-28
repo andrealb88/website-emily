@@ -59,7 +59,7 @@ export default function Services() {
             life or suitability - a personal stylist is an objective pair of
             eyes. I will help you identify what works best for your shape and
             which pieces you need for an accessible wardrobe. Together, we can
-            create space for new pieces ensuring you have plenty of 'go-to'
+            create space for new pieces ensuring you have plenty of "go-to"
             outfits you know you look fabulous in.
           </h3>
         </div>
