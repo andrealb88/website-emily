@@ -11,7 +11,7 @@ export default function Blog() {
               width="16"
               height="16"
               fill="currentColor"
-              class="bi bi-arrow-left-square"
+              className="bi bi-arrow-left-square"
               viewBox="0 0 16 16"
             >
               <path
@@ -37,8 +37,8 @@ export default function Blog() {
         <p> Your 2023 Wardrobe</p>
         <p>
           As a personal stylist I spend a lot of time thinking about clothes.
-          Mostly it's other people's sartorial challenges that fill my head -
-          I...
+          Mostly it&apos;s other people&apos;s sartorial challenges that fill my
+          head - I...
         </p>
       </div>
       <div className="blog-2">

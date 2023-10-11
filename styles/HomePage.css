@@ -1,0 +1,65 @@
+.intro {
+  /* width: 60%;
+  position: absolute;
+  bottom: 193px;
+  width: 500px;
+  left: 674px;
+  background-color: #f0e3eb; */
+  width: 60%;
+  position: absolute;
+  bottom: 193px;
+  width: 500px;
+  left: 780px;
+  padding: 40px;
+  top: 110px;
+}
+body {
+  margin: 0px;
+}
+.home {
+  /* display: flex;
+  flex-direction: column;
+  /* background-color: #e8dacfbf;  */
+  /* background-color: #f3e7e9bf;
+  height: 100%;
+  width: 100%; */
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Make sure the body takes up the full viewport height */
+  background: linear-gradient(
+    to right,
+    #f3e7e9bf 50%,
+    #f0e3eb 50%
+  ); /* Replace these color codes with your desired colors */
+}
+.pictures {
+  background-color: #eed7c3;
+  position: relative;
+}
+.colour {
+  /* background-color: #eed7c3;  */
+  background-color: #e6cfde;
+  height: 500px;
+  width: 500px;
+  z-index: 3;
+  position: relative;
+  top: -35px;
+  margin-bottom: -33px;
+}
+.emily {
+  margin: 100px;
+}
+/* .name {
+  width: 500px;
+  height: 100%;
+  /* margin: 0px;
+  position: relative;
+  right: -313px;
+  bottom: -35px;
+  z-index: 10; */
+/* }  */
+.title {
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
