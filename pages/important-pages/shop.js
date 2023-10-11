@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import bag from "./next.svg";
-import { CreateCheckOutSession } from "../../api/create-checkout-session";
+// import { CreateCheckOutSession } from "../../api/create-checkout-session";
 import axios from "axios";
 
 export const simpleItem = (item) => {
@@ -123,13 +123,13 @@ function Shop() {
             </button>
           </div>
           <p>Total: ${item.quantity * item.price}</p>
-          <button
+          {/* <button
             disabled={item.quantity === 0}
             onClick={CreateCheckOutSession}
             className="bg-blue-500 hover:bg-blue-600 text-white block w-full py-2 rounded mt-2 disabled:cursor-not-allowed disabled:bg-blue-100"
           >
             Buy
-          </button>
+          </button> */}
         </div>
       </main>
     </div>
