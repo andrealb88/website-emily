@@ -97,7 +97,7 @@ function Shop() {
       <h1>Shop</h1>
       <main>
         <div className="shadow-lg border rounded p-2 ">
-          <Image src={item.image} width={300} height={150} />
+          <Image alt="product" src={item.image} width={300} height={150} />
           <h2 className="text-2xl">$ {item.price}</h2>
           <h3 className="text-xl">{item.name}</h3>
           <p className="text-gray-500">{item.description}</p>

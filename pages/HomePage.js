@@ -9,7 +9,13 @@ export default function HomePage() {
         <h1 className="name">EMILY STOTT</h1>
       </div>
       <div className="colour">
-        <Image className="emily" src={womenImage} width={500} height={500} />
+        <Image
+          alt="women"
+          className="emily"
+          src={womenImage}
+          width={500}
+          height={500}
+        />
       </div>
       <div className="intro">
         <h3>
@@ -20,11 +26,11 @@ export default function HomePage() {
           colour analyst and personal shopper, I believe our sartorial choices
           and personal style are important; clothes should be fun but they
           should also be a positive reflection of who we are. Most of us have
-          wardrobes stuffed with clothes, many of which don't get worn. By
+          wardrobes stuffed with clothes, many of which don&apos;t get worn. By
           identifying what works best for your shape, colouring and lifestyle
           and refining the contents of your wardrobe into a workable collection,
           having nothing to wear will be a thing of the past. You will save time
-          and money and gain confidence, and others will notice. That's a
+          and money and gain confidence, and others will notice. That&apos;s a
           promise.
         </h3>
       </div>
