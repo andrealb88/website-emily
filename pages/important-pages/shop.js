@@ -95,6 +95,7 @@ function Shop() {
         </div>
       </nav>
       <h1>Shop</h1>
+      <div></div>
       <main>
         <div className="shadow-lg border rounded p-2 ">
           <Image alt="product" src={item.image} width={300} height={150} />
