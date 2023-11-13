@@ -27,7 +27,7 @@ export default function HomePage() {
 
       <div className="intro">
         <h2 className="phrase">
-          "People will stare, make it worth their while"
+          &quot;People will stare, make it worth their while&quot;
         </h2>
         {/* <h3>
           Looking and feeling confident about the way you look can make all the
