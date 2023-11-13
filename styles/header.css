@@ -1,0 +1,26 @@
+header {
+  background-color: #fcfcfc;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10%;
+  margin-top: 3%;
+}
+
+a {
+  color: rgb(181, 63, 63);
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover {
+  border-bottom: 2px solid white;
+}
+.logo-header {
+  width: 20%;
+  height: 10%;
+}

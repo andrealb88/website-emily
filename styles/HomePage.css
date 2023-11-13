@@ -1,17 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Charm&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&display=swap");
+
 .intro {
   /* width: 60%;
-  position: absolute;
-  bottom: 193px;
-  width: 500px;
-  left: 674px;
-  background-color: #f0e3eb; */
-  width: 60%;
   position: absolute;
   bottom: 193px;
   width: 500px;
   left: 780px;
   padding: 40px;
   top: 110px;
+  /* font-family: "Playball", cursive; */
+  /* font-family: "Cantarell", sans-serif;
+  font-size: 16px; */
+  width: 50%;
+  position: absolute;
+  left: 554px;
+  padding: 40px;
+  top: 187px;
+  font-family: "Cantarell", sans-serif;
+  font-size: 16px;
+}
+.emily {
+  width: 100%;
+  height: 100%;
 }
 body {
   margin: 0px;
@@ -25,12 +38,11 @@ body {
   width: 100%; */
   margin: 0;
   padding: 0;
-  height: 100vh; /* Make sure the body takes up the full viewport height */
-  background: linear-gradient(
-    to right,
-    #f3e7e9bf 50%,
-    #f0e3eb 50%
-  ); /* Replace these color codes with your desired colors */
+  height: 1000px; /* Make sure the body takes up the full viewport height */
+  /* background: linear-gradient(to right, #cc97c6 50%, #f0e3eb 50%); */
+  background-color: #f0e3eb;
+  display: flex;
+  flex-direction: column;
 }
 .pictures {
   background-color: #eed7c3;
@@ -39,27 +51,23 @@ body {
 .colour {
   /* background-color: #eed7c3;  */
   background-color: #e6cfde;
-  height: 500px;
-  width: 500px;
-  z-index: 3;
-  position: relative;
-  top: -35px;
-  margin-bottom: -33px;
+  height: 550px;
+  width: 450px;
+  margin: 28px;
 }
-.emily {
-  margin: 100px;
-}
-/* .name {
-  width: 500px;
-  height: 100%;
-  /* margin: 0px;
-  position: relative;
-  right: -313px;
-  bottom: -35px;
-  z-index: 10; */
-/* }  */
+
 .title {
   display: flex;
   justify-content: center;
   z-index: 10;
+}
+.name {
+  font-family: "Hurricane", cursive;
+  font-size: 60px;
+  font-weight: 400;
+}
+.phrase {
+  font-family: "Hurricane", cursive;
+  font-size: 40px;
+  font-weight: 600;
 }
