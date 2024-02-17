@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belleza&display=swap");
+
+.emily-background {
+  width: 60%;
+  height: 98%;
+  margin-right: 20px;
+}
+.about-emily {
+  bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Belleza", sans-serif;
+  font-size: 16px;
+}
+
+.about-body {
+  width: 100%;
+  height: 100vw;
+  background-color: white;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-about {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.group {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10%;
+  margin-top: 3%;
+  align-items: baseline;
+  font-family: "Belleza", sans-serif;
+  font-size: 16px;
+}
+.picture-container {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.link {
+  color: #7d7873;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.link:hover {
+  color: #e1a7da;
+}
+.logo-header {
+  width: 30%;
+  height: 10%;
+}
+.about-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-container {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+}
+.about-me {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 50px;
+  font-weight: 600;
+}
+.sign {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 40px;
+}
+.about-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.text-life,
+.text-about {
+  font-family: "Belleza", sans-serif;
+  font-size: 18px;
+  color: #7d7873;
+}
+
+.description-self {
+  font-family: "Belleza", sans-serif;
+  color: #e1a7da;
+}
+.about-me {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 75px;
+  color: #7d7873;
+}
+.sign {
+  color: #e1a7da;
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 75px;
+  margin: 0;
+  margin-bottom: 70px;
+}
+.logo-header {
+  width: 30%;
+  height: 10%;
+}
+.about-cover {
+  width: 100%;
+  height: 500px;
+}
+.final-about {
+  font-family: "Belleza", sans-serif;
+  font-size: 18px;
+  color: #7d7873;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-button {
+  width: 130px;
+  height: 40px;
+  margin: 8% 36%;
+  font-family: "Belleza", sans-serif;
+  font-size: 16px;
+  color: whitesmoke;
+  background-color: #e1a7da;
+  border-color: #e1a7da;
+  border-radius: 5px;
+}
+.linkedin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.circle {
+  align-items: center;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

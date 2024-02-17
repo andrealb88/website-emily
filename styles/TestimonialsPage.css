@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belleza&display=swap");
+
+.testimonials {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Belleza", sans-serif;
+  font-size: 16px;
+}
+.part-a {
+  display: flex;
+  align-items: center;
+}
+.part-b {
+  display: flex;
+}
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(251, 251, 251);
+}
+.title-testimonials {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 68px;
+  font-weight: 600;
+  color: #9b9692;
+}
+/* .testimonial-1,
+.testimonial-2,
+.testimonial-3,
+.testimonial-4,
+.testimonial-5,
+.testimonial-6 {
+  background-color: #f3e7e9a5;
+  margin: 2%;
+  height: 400px;
+  width: 245px;
+  padding: 2%;
+} */

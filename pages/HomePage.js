@@ -1,29 +1,17 @@
 import Image from "next/image";
 import "/styles/HomePage.css";
-import womenImage from "/pages/important-pages/emily-stott.jpg";
 import emily from "/pages/important-pages/emily.jpg";
 
 export default function HomePage() {
   return (
     <div className="home">
-      <div className="title"></div>
       <Image
         alt="women2"
         className="emily"
         src={emily}
-        width="100%"
-        height="90%"
+        width="85%"
+        height="75%"
       />
-
-      {/*    <div className="colour">
-         <Image
-          alt="women"
-          className="emily"
-          src={womenImage}
-          width={450}
-          height={550}
-        />
-       </div> */}
 
       <div className="intro">
         <h2 className="phrase">
@@ -49,6 +37,7 @@ export default function HomePage() {
           and money and gain confidence, and others will notice. That&apos;s a
           promise.
         </h3>
+        <button className="contact">GET IN TOUCH</button>
       </div>
     </div>
   );

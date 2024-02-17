@@ -1,0 +1,51 @@
+{
+  "items": {
+    "bootstrap": [],
+    "elastic": [],
+    "responsive": [
+      {
+        "id": 1,
+        "text": "Emily spent three hours with me and my cluttered wardrobe. I hadn't updated my look since before having my daughter, and Emily helped me with shapes so I now have a much better idea of what looks good on me. I took three sacks of clothes to the charity shop afterwards! Friends have noticed the difference; it is easier choosing what to wear each day, and I feel more confident.",
+        "text1":" Natalie"
+      },
+      {
+          "id": 2,
+          "text": "I was at a low ebb as a significant birthday approached and feeling out of shape I covered myself up with shapeless black clothes. Emily gently steered me towards more flattering colours and cuts and although I was anxious at first I've now got lots of outfits I know make me look younger and slimmer!",
+          "text1":"Anne"
+      },
+      {
+        "id": 3,
+        "text": " Since having my 'colours done', with Emily I avoid black and try to invest in those shades which flatter and enhance. I've noticed I get more compliments and was even asked by one friend if I'd had work done!",
+        "text1":" Monique"
+      },
+      {
+        "id": 4,
+        "text": "Emily has picked out some great options for what I'm trying to achieve with my look. She has a great eye.",
+        "text1":"Jack"
+      },
+      {
+        "id": 5,
+        "text": "A styling session with Emily is fun and saves you money because you will never make any more fashion mistakes. I now know that everything in my wardrobe suits me",
+        "text1":"Pam"
+        
+      },
+      {
+        "id": 6,
+        "text": "Emily has the amazing ability to put together the perfect outfit for my body type and make me look fantastic. I trust hercompletely to always find the best colours and styles for me",
+        "text1":"Molly"
+      },
+      {
+        "id": 7,
+        "text": "Thank you so much,I loved it! You've given me the confidence to wear all sorts of things again and it was such fun - you're a real start turn.",
+        "text1":"Elaine"
+      }
+    ]
+  }
+}
+
+
+
+
+
+  
+  

@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belleza&display=swap");
+
+body {
+  margin: 0;
+}
+
+.services-big-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+.service-small-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5%;
+  border-style: solid;
+  height: 75%;
+}
+.title-services {
+  color: #e1a7da;
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 75px;
+}
+.service {
+  /* background-color: rgb(208 205 205 / 42%); */
+  width: 60%;
+  margin: 5%;
+  background-color: #7d7873;
+  font-family: "Belleza", sans-serif;
+  font-size: 16px;
+  box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.intro-services {
+  color: #7d7873;
+  font-family: "Belleza", sans-serif;
+  font-size: 16px;
+}
+.all-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Belleza", sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: white;
+}
+.service-nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-options {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10%;
+  margin-top: 3%;
+  align-items: baseline;
+}
+
+.logo-header {
+  width: 30%;
+  height: 10%;
+}
+.group-services {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10%;
+  margin-top: 3%;
+  align-items: baseline;
+}
+.link {
+  color: #7d7873;
+  text-decoration: none;
+  padding: 10px;
+}
+.clothes-services-cover {
+  width: 100%;
+  height: 500px;
+  opacity: 50%;
+}
+
+.link:hover {
+  color: #e1a7da;
+}
+.picture-container {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.linkedin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.description {
+  margin: 4%;
+}
+.second-title {
+  margin-left: 40%;
+}
