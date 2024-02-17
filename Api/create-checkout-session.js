@@ -7,11 +7,11 @@ const stripePromise = loadStripe(publishableKey);
 
 export const CreateCheckOutSession = async () => {
   const stripe = await stripePromise;
-  const checkoutSession = await axios.post(CreateStripeSession, {
-    simpleItem: simpleItem,
-  });
+  // const checkoutSession = await axios.post(CreateStripeSession, {
+  //   simpleItem: simpleItem,
+  // });
 
-  // const checkoutSession = await axios.post(CreateStripeSession, Shop);
+  const checkoutSession = await axios.post(CreateStripeSession, simpleItem);
   const result = await stripe.redirectToCheckout({
     sessionId: checkoutSession.data.id,
   });

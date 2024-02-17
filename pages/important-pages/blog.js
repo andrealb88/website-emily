@@ -1,4 +1,8 @@
 import Link from "next/link";
+import "/styles/blog.css";
+import FooterPage from "../Footer";
+
+//import Posts from "../../app/components/Posts";
 
 export default function Blog() {
   return (
@@ -25,30 +29,35 @@ export default function Blog() {
           <Link href="/">Home</Link>
           <Link href="./About">About</Link>
 
-          <Link href="./blog">Blog</Link>
+          <Link href="./PressPage">Press</Link>
 
           <Link href="./shop">Shop</Link>
 
           <Link href="./services">Personal styled Services</Link>
         </div>
       </nav>
-      <h1>Styling Blog</h1>
-      <div className="blog-1">
-        <p> Your 2023 Wardrobe</p>
-        <p>
-          As a personal stylist I spend a lot of time thinking about clothes.
-          Mostly it&apos;s other people&apos;s sartorial challenges that fill my
-          head - I...
-        </p>
+      <h1 className="title-blog">Styling Blog</h1>
+      <div className="blog-container">
+        <div className="blog-1">
+          <p> Your 2023 Wardrobe</p>
+          <p>
+            As a personal stylist I spend a lot of time thinking about clothes.
+            Mostly it&apos;s other people&apos;s sartorial challenges that fill
+            my head - I...
+          </p>
+        </div>
+        <div className="blog-2">
+          <p>You Too Can Wear Yellow!</p>
+          <p>
+            If the mere utterance of the word yellow strikes fear into your
+            heart then rest assured you are not alone. Yellow comes in many
+            guises...
+          </p>
+          {/* <Posts /> */}
+        </div>
       </div>
-      <div className="blog-2">
-        <p>You Too Can Wear Yellow!</p>
-        <p>
-          If the mere utterance of the word yellow strikes fear into your heart
-          then rest assured you are not alone. Yellow comes in many guises...
-        </p>
-      </div>
-      <div className="blog-3"></div>
+
+      <FooterPage />
     </div>
   );
 }

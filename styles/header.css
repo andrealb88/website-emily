@@ -1,0 +1,28 @@
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10%;
+  margin-top: 3%;
+}
+
+a {
+  color: #9b9692;
+  text-decoration: none;
+  padding: 10px;
+  font-family: "Belleza", sans-serif;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #e1a7da;
+}
+.logo-header {
+  width: 30%;
+  height: 10%;
+}

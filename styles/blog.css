@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "willkids";
+  src: url("/willkids.otf");
+  src: url("/willkids.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+.title-blog {
+  font-family: "willkids", system-ui;
+  font-size: 50px;
+  font-weight: 600;
+}

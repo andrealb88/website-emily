@@ -1,0 +1,60 @@
+.Press-intro {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.press-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.title-press {
+  font-family: "Taprom", system-ui;
+  font-size: 50px;
+}
+.intro-press {
+  font-family: "Cantarell", sans-serif;
+  font-size: 18px;
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.media-full {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  border-style: ridge;
+  z-index: 2;
+  padding: 60px;
+}
+.media-1 {
+  margin-bottom: 20px;
+}
+.media-2 {
+  margin-left: 10px;
+}
+.link:hover {
+  color: #e1a7da;
+}
+.link {
+  color: #7d7873;
+  text-decoration: none;
+  padding: 10px;
+}
+.group-press {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10%;
+  margin-top: 3%;
+  align-items: baseline;
+  font-family: "Belleza", sans-serif;
+  font-size: 16px;
+}
+body {
+  margin: 0;
+}
