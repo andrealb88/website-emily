@@ -35,7 +35,7 @@ export default function HomePage() {
           and refining the contents of your wardrobe into a workable collection,
           having nothing to wear will be a thing of the past. You will save time
           and money and gain confidence, and others will notice. That&apos;s a
-          promise.
+          promise.Emily.
         </h3>
         <button className="contact">GET IN TOUCH</button>
       </div>
